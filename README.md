@@ -1,4 +1,4 @@
-# Laravel 7 將 PDF 文件或純文字從遠端伺服器發送到本地網路的印表機
+# Laravel 8 將 PDF 文件或純文字從遠端伺服器發送到本地網路的印表機
 
 引入 rawilk 的 laravel-printing 套件來擴增應用程式利用 [PrintNode](https://www.printnode.com/en) 提供將 PDF 文件或純文字從遠端伺服器發送到本地網路的印表機，PrintNode 是一項託管的列印服務，可以幫助快速，輕鬆且安全地向應用程式新增遠端列印。
 
