@@ -13,7 +13,7 @@ class PrinterController extends Controller
      */
     public function index()
     {
-        $printerId = '69626460';
+        $printerId = '72112713';
         // List all printers
         $printers = Printing::printers();
         foreach ($printers as $printer) {
@@ -24,7 +24,7 @@ class PrinterController extends Controller
         }
         $printJob = Printing::newPrintTask()
                     ->printer($printerId)
-                    ->file(public_path('data/covid-19-vaccine-research-findings.pdf'))
+                    ->file(storage_path('data/covid-19-vaccine-research-findings.pdf'))
                     ->send();
         echo '印表機伺服器工作回傳編號數字：' . $printJob->id() . PHP_EOL;
     }

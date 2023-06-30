@@ -1,4 +1,4 @@
-# Laravel 8 將 PDF 文件或純文字從遠端伺服器發送到本地網路的印表機
+# Laravel 10 將 PDF 文件或純文字從遠端伺服器發送到本地網路的印表機
 
 引入 rawilk 的 laravel-printing 套件來擴增應用程式利用 [PrintNode](https://www.printnode.com/en) 提供將 PDF 文件或純文字從遠端伺服器發送到本地網路的印表機，PrintNode 是一項託管的列印服務，可以幫助快速，輕鬆且安全地向應用程式新增遠端列印。
 
@@ -27,5 +27,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/oRDvm8S.png)
+![](https://i.imgur.com/OVKatVz.png)
 > 取得印表機清單並將 PDF 文件送到 Microsoft Print to PDF 虛擬印表機來瀏覽結果
