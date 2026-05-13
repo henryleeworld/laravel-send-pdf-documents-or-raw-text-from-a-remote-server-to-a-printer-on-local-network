@@ -7,13 +7,11 @@ use Rawilk\Printing\Facades\Printing;
 class PrinterController extends Controller
 {
     /**
-     * Create a new controller instance.
-     *
-     * @return void
+     * Display a listing of the resource.
      */
     public function index()
     {
-        $printerId = '73166646';
+        $printerId = '74254679';
         // List all printers
         $printers = Printing::printers();
         foreach ($printers as $printer) {
